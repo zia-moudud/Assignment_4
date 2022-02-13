@@ -1,0 +1,253 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@800&family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+.col33{
+    width: 33.33%;
+    float: left;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container::before,
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Header section*/
+
+header{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background: #F5F9F8;
+}
+
+.logo{
+    margin-left: 60px;
+}
+
+
+
+/*Banner Section*/
+
+.banner{
+    background: url(../Image/banner.jpg)no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+
+.banner-main{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.banner-main h2{
+    color: white;
+    font-size: 120px;
+    
+}
+
+.banner-main span{
+    display: block;
+    border-bottom: 2px solid #15a4fa;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.banner-main p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.banner-btn{
+    border: 1px solid #15a4fa;
+    padding: 12px 32px;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+.banner-icon i{
+    color: #999;
+    padding-top: 10px;
+}
+
+
+.design{
+    margin: 10px 10px;
+    background-color: f6f9f9;
+    padding: 20px 20px;
+}
+
+.design-one h2{
+    text-align: center;
+    padding: 0 15px;
+}
+
+.design-one p{
+    text-align: center;
+    padding: 20px 25px;
+}
+
+.service{
+    width: 100%;
+    float: left;
+    padding: 90px 0px;
+}
+
+.service-icon{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.service-icon img{
+    margin-top: 30px;
+}
+
+.service-icon h3{
+    margin: 20px 15px;
+}
+
+
+/* gallery part start */
+
+.gallery{
+    text-align: center;
+    background-color: #f6f9f9;
+}
+
+.gallery_text{
+    margin: 60px 0;
+}
+
+
+
+.cards .col33{
+    padding-top: 15px;
+}
+
+/* gallery part end */
+
+
+
+/* Contact part start */
+.Contact{
+    background: url(../Image/Stay.jpg);
+    background-size: cover;
+    margin: 50px 0;
+}
+
+.stay{
+    margin: 0px 10px;
+}
+
+.stay h4{
+    padding-top: 90px;
+    text-align: center;
+    color: white;
+}
+
+.stay p{
+    text-align: center;
+    color: #939495;
+    padding: 15px 0px;
+}
+
+.form{
+   padding-left: 20px;
+   border: 2px solid #000;
+}
+
+.form-control{
+    width: 50%;
+    height: 40px;
+    padding-left: 20px;
+    margin: 20px 290px;
+    font-size: 20px;
+    display: block;
+    background: transparent;
+    border: 1px solid #999999;
+}
+
+.form-control_M{
+    width: 50%;
+    height: 190px;
+    padding-left: 20px;
+    margin: 20px 290px;
+    font-size: 20px;
+    display: block;
+    background: transparent;
+    border: 1px solid #999999;
+}
+
+.submit-btn{
+    background-color: darkcyan;
+    color: ghostwhite;
+    padding: 8px 40px;
+    margin-left: 755px;
+    margin-bottom: 30px;
+    display: block;
+    background: transparent;
+    border: 1px solid #15a4fa;
+}
+
+
+/* footer part start */
+.footer{
+    background: #F5F9F8;
+}
+
+.copy{
+    float: left;
+}
+
+.icons{
+    float: right;
+}
+
+.icons ul{
+   list-style: none;
+}
+
+.icons ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.icons ul li a{
+    background-color: 15a4fa;
+    padding: 4px 8px;
+    color: white;
+    font-size: 20px;
+}
